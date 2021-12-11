@@ -1,0 +1,29 @@
+package com.company;
+import java.util.*;
+ public class Main{
+     public static void main(String[] args){
+         int num;
+         System.out.println("Enter an Integer number: ");
+         Scanner sc= new Scanner(System.in);
+         num= sc.nextInt();
+         if (num%2==0)
+             System.out.println("even");
+         else
+             System.out.println("odd");
+     }
+
+ }
+ 
+
+//another way to do this:
+//package com.company;
+//public class Main{
+  //  public static void main(String[] args) {
+    //    int n = 45;
+      //  System.out.println(isOdd(n));
+    //}
+    //private static boolean isOdd(int n){
+      //  return (n & 1)==1;
+  //  }
+//}
+
